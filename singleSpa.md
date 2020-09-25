@@ -1,5 +1,7 @@
 ### single-spa实战
     vue create xxx // 创建vue的父应用和子应用
+### [父应用github地址](https://github.com/chujian1/parent-vue-project)
+### [子应用github地址](https://github.com/chujian1/child-vue-project)
 ### 缺陷
     1.css样式冲突问题: 1)子应用之间的样式冲突可以通过动态样式表，当应用切换时，移除老样式，添加新样式 2）父子应用样式冲突时，通过 BEM，约定项目前缀 or css-modules，打包生成不冲突的选择器名 or shadow DOM ，真正意义上的隔离
 ```
